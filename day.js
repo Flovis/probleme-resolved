@@ -29,3 +29,14 @@ function getDateForDayOfWeek(dayOfWeek) {
 
 // Exemple d'utilisation pour un jeudi (aujourd'hui étant jeudi) :
 console.log(getDateForDayOfWeek('jeudi')); // Renvoie la date d'aujourd'hui
+
+/**
+ * Quand la fonction trouve que la date correspond a aujourd'hui?
+ * la fonction doit faire que ckeckDate s'execute pour envoyer des alertes
+ * et cela doit se faire apres l'execution de toute la requete
+ * 
+ * Ou je peux verifier dans le controller qui insert les donnees
+ * si la date corresponds a la date d'aujourd'hui, que ca appelle la fonction checkDate
+ * 
+ * Et sinnon la fonction continue a s'executer toute le 24heure
+ */
